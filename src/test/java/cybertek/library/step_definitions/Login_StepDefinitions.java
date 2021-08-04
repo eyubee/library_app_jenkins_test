@@ -98,12 +98,8 @@ LibraryPage libraryPage= new LibraryPage();
     public void student_homepage_is_displayed() {
 
     }
-
-@AfterClass
-public void tear_down(){
-    Driver.closeDriver();
+    @AfterClass
+    public void tear_down(){
+        Driver.getDriver().close();
+    }
 }
-
-
-}
-s
