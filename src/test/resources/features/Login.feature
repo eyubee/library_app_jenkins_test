@@ -1,6 +1,6 @@
 Feature:
   login feature for librarian and student
-@test
+  @smoke
   Scenario: user login as librarian
     When user login as librarian
     Then librarian homepage is displayed
